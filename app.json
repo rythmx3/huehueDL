@@ -7,7 +7,7 @@
         "Song Downloader",
         "Telegram Bot"
     ],
-    "repository": "https://github.com/me-piro-786/SongDL-Bot",
+    "repository": "https://github.com/rythmx3/huehueDL",
     "env": {
         "BOT_TOKEN": {
             "description": "Your Telegram Bot Token from @BotFather",
