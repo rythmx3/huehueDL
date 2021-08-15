@@ -24,13 +24,13 @@ bot = Client(
 
 
 @bot.on_message(filters.command("start") & ~filters.edited)
-async def start(_, message):
+async def start(_, message):h
    if message.chat.type == 'private':
        await message.reply("**Hey There, I'm a song downloader bot.\nUsage:** `/song [query]`",   
                             reply_markup=InlineKeyboardMarkup(
                                 [[
                                      InlineKeyboardButton(
-                                            "Source", url="https://github.com/me-piro-786/SongDL-Bot")
+                                            "Source", url="https://telegra.ph/file/5c0f48de26a9342701408.jpg")
                                     ]]
                             ))
    else:
